@@ -1,0 +1,15 @@
+.git
+.assetsignore
+wrangler.json
+worker.mjs
+policy.json
+.vercel
+node_modules
+.wrangler
+/vercel.json
+/README.md
+/.gitignore
+/.vercelignore
+/assets/sourcesans3-LICENSE.txt
+/assets/barlowcondensed-LICENSE.txt
+/assets/rain-gutter.mp4

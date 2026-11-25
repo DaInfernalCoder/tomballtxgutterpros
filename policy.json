@@ -1,0 +1,96 @@
+{
+  "config": {
+    "cleanUrls": true,
+    "trailingSlash": true,
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+          }
+        ]
+      }
+    ]
+  },
+  "domains": [
+    {
+      "name": "www.tomballtxgutterpros.shop",
+      "apexName": "tomballtxgutterpros.shop",
+      "redirect": "tomballtxgutterpros.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    },
+    {
+      "name": "tomballtxgutterpros.shop",
+      "apexName": "tomballtxgutterpros.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/about/index.html",
+    "/apple-touch-icon.png",
+    "/areas/creekside-park/index.html",
+    "/areas/cypress/index.html",
+    "/areas/hockley/index.html",
+    "/areas/hufsmith-kohrville-corridor/index.html",
+    "/areas/hufsmith/index.html",
+    "/areas/index.html",
+    "/areas/jersey-village/index.html",
+    "/areas/kohrville/index.html",
+    "/areas/magnolia/index.html",
+    "/areas/old-town-tomball-downtown/index.html",
+    "/areas/pinehurst/index.html",
+    "/areas/rose-hill/index.html",
+    "/areas/spring/index.html",
+    "/areas/waller/index.html",
+    "/areas/willowcreek-ranch/index.html",
+    "/assets/barlow-condensed.woff2",
+    "/assets/detail-640.webp",
+    "/assets/detail-900.webp",
+    "/assets/detail.jpg",
+    "/assets/favicon-512.png",
+    "/assets/hero-1280.webp",
+    "/assets/hero-640.webp",
+    "/assets/hero-960.webp",
+    "/assets/hero.jpg",
+    "/assets/logo.svg",
+    "/assets/site.css",
+    "/assets/site.js",
+    "/assets/source-sans.woff2",
+    "/contact/index.html",
+    "/favicon-96.png",
+    "/favicon.ico",
+    "/index.html",
+    "/privacy/index.html",
+    "/robots.txt",
+    "/seo-manifest.json",
+    "/services/5-inch-gutters/index.html",
+    "/services/6-inch-gutters/index.html",
+    "/services/commercial-gutters/index.html",
+    "/services/downspouts/index.html",
+    "/services/gutter-cleaning/index.html",
+    "/services/gutter-guards/index.html",
+    "/services/gutter-installation/index.html",
+    "/services/gutter-repair/index.html",
+    "/services/gutter-replacement/index.html",
+    "/services/index.html",
+    "/services/residential-gutters/index.html",
+    "/services/seamless-gutters/index.html",
+    "/site-config.json",
+    "/sitemap.css",
+    "/sitemap.xml",
+    "/sitemap/index.html"
+  ]
+}
